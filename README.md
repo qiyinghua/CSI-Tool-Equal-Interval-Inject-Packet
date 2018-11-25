@@ -1,4 +1,4 @@
-#  [Linux 802.11n CSI Tool](https://github.com/dhalperi/linux-80211n-csitool)监控模式下高速等间隔发包
+#  Linux 802.11n CSI Tool监控模式下高速等间隔发包
 
 # 使用
 此代码基于Linux 802.11n CSI Tool,请确保你已经安装并可以正常使用 
