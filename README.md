@@ -1,3 +1,23 @@
+#  Linux 802.11n CSI Tool high speed equal interval inject packet
+
+# Usage
+This code is based on Linux 802.11n CSI Tool. Make sure you have installed it and can use it properly.
+https://github.com/dhalperi/linux-80211n-csitool.
+
+This code runs in the monitor mode of Linux 802.11n CSI Tool,download this code and replace to "linux-80211n-csitool-supplementary/injection" folder.
+
+
+ Run commands under "linux-80211n-csitool-supplementary/injection" folder:
+~~~
+make
+sudo ./random_packets 1000000 100 1 1000
+~~~
+
+
+# Test Results
+<img src="pic1.jpg" width = "60%" />
+<img src="pic2.jpg" width = "60%" />
+
 #  Linux 802.11n CSI Tool监控模式下高速等间隔发包
 
 # 使用
@@ -10,10 +30,15 @@ https://github.com/dhalperi/linux-80211n-csitool.
  然后在 linux-80211n-csitool-supplementary/injection 文件夹下运行以下命令:
 ~~~
 make
-sudo ./random_packets 1000 100 1 1000
+sudo ./random_packets 1000000 100 1 1000
 ~~~
 
 
 # 测试结果
-<img src="pic1.png" width = "60%" />
-<img src="pic2.png" width = "60%" />
+<img src="pic3.jpg" width = "60%" />
+<img src="pic4.jpg" width = "60%" />
+
+
+
+
+
